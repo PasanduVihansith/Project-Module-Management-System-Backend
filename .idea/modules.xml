@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-backend.iml" filepath="$PROJECT_DIR$/.idea/springboot-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Project-Module-Management-System-Backend.iml" filepath="$PROJECT_DIR$/.idea/Project-Module-Management-System-Backend.iml" />
     </modules>
   </component>
 </project>

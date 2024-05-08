@@ -16,7 +16,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/presentationshedule")
+@RequestMapping("/api/v1/presentation_schedule")
+@CrossOrigin("http://localhost:3001")
 public class PresentatinSheduleController {
 
     @Autowired
