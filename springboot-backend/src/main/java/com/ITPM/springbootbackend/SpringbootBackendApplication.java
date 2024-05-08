@@ -4,6 +4,7 @@ import com.ITPM.springbootbackend.model.Exams;
 import com.ITPM.springbootbackend.repository.ExamRepository;
 
 
+import com.ITPM.springbootbackend.repository.PresentationRepositary;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -16,8 +17,9 @@ public class SpringbootBackendApplication implements CommandLineRunner {
 		SpringApplication.run(SpringbootBackendApplication.class, args);
 	}
 
-	
 
+	@Autowired
+	private PresentationRepositary presentationRepositary;
 
 
 	@Autowired
